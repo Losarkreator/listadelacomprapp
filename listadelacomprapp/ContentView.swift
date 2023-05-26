@@ -1,9 +1,7 @@
-//
 //  ContentView.swift
 //  listadelacomprapp
-//
 //  Created by Losark on 26/5/23.
-//
+
 
 import SwiftUI
 
@@ -13,7 +11,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Hello!")
         }
         .padding()
     }
