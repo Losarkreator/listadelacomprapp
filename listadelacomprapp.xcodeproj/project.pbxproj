@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		873365BE2A216F7600BA9ED7 /* BotonReutilizableEjemplo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873365BD2A216F7600BA9ED7 /* BotonReutilizableEjemplo.swift */; };
 		87BAF42E2A21005900F34A4C /* listadelacomprappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BAF42D2A21005900F34A4C /* listadelacomprappApp.swift */; };
 		87BAF4302A21005900F34A4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BAF42F2A21005900F34A4C /* ContentView.swift */; };
 		87BAF4322A21005A00F34A4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87BAF4312A21005A00F34A4C /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		873365BD2A216F7600BA9ED7 /* BotonReutilizableEjemplo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotonReutilizableEjemplo.swift; sourceTree = "<group>"; };
 		87BAF42A2A21005900F34A4C /* listadelacomprapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = listadelacomprapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87BAF42D2A21005900F34A4C /* listadelacomprappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listadelacomprappApp.swift; sourceTree = "<group>"; };
 		87BAF42F2A21005900F34A4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			children = (
 				87DD8CD62A210774008577CD /* ShoppingListView.swift */,
 				87BAF42F2A21005900F34A4C /* ContentView.swift */,
+				873365BD2A216F7600BA9ED7 /* BotonReutilizableEjemplo.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 				87BAF4302A21005900F34A4C /* ContentView.swift in Sources */,
 				87DD8CD52A21066A008577CD /* ShoppingListViewModel.swift in Sources */,
 				87DD8CCD2A2103B8008577CD /* ProductModel.swift in Sources */,
+				873365BE2A216F7600BA9ED7 /* BotonReutilizableEjemplo.swift in Sources */,
 				87BAF42E2A21005900F34A4C /* listadelacomprappApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
