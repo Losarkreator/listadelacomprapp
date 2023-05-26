@@ -6,7 +6,9 @@
 import SwiftUI
 
 struct ShoppingListView: View {
-    @ObservedObject var shoppingList: ShoppingListViewModel
+//    @StateObject private var viewModel = ViewModel()
+    @ObservedObject var shoppingList = ShoppingListViewModel(products: [ProductModel(name: "Pan"), ProductModel(name: "Agua")])
+    
     @State private var newProductName = ""
     
     var body: some View {
@@ -47,7 +49,7 @@ struct ShoppingListView: View {
 }
 
 struct ShoppingListRow: View {
-    let product: Product
+    let product: ProductModel
     let togglePurchase: () -> Void
     
     var body: some View {
@@ -65,6 +67,6 @@ struct ShoppingListRow: View {
 
 struct ShoppingListView_Previews: PreviewProvider {
     static var previews: some View {
-        ShoppingListView(shoppingList:  ShoppingListViewModel(products: [Product(name: "Pan"), Product(name: "Agua")]))
+        ShoppingListView()
     }
 }

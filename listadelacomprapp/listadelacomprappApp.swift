@@ -11,7 +11,7 @@ import SwiftUI
 struct listadelacomprappApp: App {
     var body: some Scene {
         WindowGroup {
-            ShoppingListView(shoppingList:  ShoppingListViewModel(products: [Product(name: "Pan"), Product(name: "Agua")]))
+            ShoppingListView()  
         }
     }
 }

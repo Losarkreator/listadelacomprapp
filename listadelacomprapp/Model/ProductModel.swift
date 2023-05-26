@@ -4,8 +4,7 @@
 
 import Foundation
 
-// Decodable?
-struct Product: Codable, Identifiable {
+struct ProductModel: Codable, Identifiable {
     var id = UUID()
     var name: String
     var isPurchased: Bool = false
