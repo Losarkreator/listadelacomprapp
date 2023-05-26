@@ -1,9 +1,7 @@
-//
 //  ShoppingListView.swift
 //  listadelacomprapp
-//
 //  Created by Losark on 26/5/23.
-//
+
 
 import SwiftUI
 
