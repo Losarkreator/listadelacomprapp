@@ -12,6 +12,8 @@
 		87BAF4322A21005A00F34A4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87BAF4312A21005A00F34A4C /* Assets.xcassets */; };
 		87BAF4352A21005A00F34A4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87BAF4342A21005A00F34A4C /* Preview Assets.xcassets */; };
 		87DD8CCD2A2103B8008577CD /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DD8CCC2A2103B8008577CD /* ProductModel.swift */; };
+		87DD8CD52A21066A008577CD /* ShoppingListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DD8CD42A21066A008577CD /* ShoppingListViewModel.swift */; };
+		87DD8CD72A210774008577CD /* ShoppingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DD8CD62A210774008577CD /* ShoppingListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		87BAF4312A21005A00F34A4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87BAF4342A21005A00F34A4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		87DD8CCC2A2103B8008577CD /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		87DD8CD42A21066A008577CD /* ShoppingListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListViewModel.swift; sourceTree = "<group>"; };
+		87DD8CD62A210774008577CD /* ShoppingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		87DD8CC92A210395008577CD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				87DD8CD62A210774008577CD /* ShoppingListView.swift */,
 				87BAF42F2A21005900F34A4C /* ContentView.swift */,
 			);
 			path = Views;
@@ -90,6 +95,7 @@
 		87DD8CCB2A2103A5008577CD /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				87DD8CD42A21066A008577CD /* ShoppingListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -164,7 +170,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87DD8CD72A210774008577CD /* ShoppingListView.swift in Sources */,
 				87BAF4302A21005900F34A4C /* ContentView.swift in Sources */,
+				87DD8CD52A21066A008577CD /* ShoppingListViewModel.swift in Sources */,
 				87DD8CCD2A2103B8008577CD /* ProductModel.swift in Sources */,
 				87BAF42E2A21005900F34A4C /* listadelacomprappApp.swift in Sources */,
 			);

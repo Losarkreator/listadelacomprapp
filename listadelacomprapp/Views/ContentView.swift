@@ -12,6 +12,8 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
+                
+                
                 List {
                     ForEach(0..<products.count, id: \.self) { index in
                         HStack {
@@ -29,6 +31,9 @@ struct ContentView: View {
                     .onDelete(perform: deleteProduct)
                 }
                 .navigationBarTitle("Lista de Compra")
+                
+                
+                
                 
                 HStack {
                     TextField("Nuevo producto", text: $newProduct)
